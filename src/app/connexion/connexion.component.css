@@ -1,0 +1,51 @@
+/* connexion.component.css */
+.div1 {
+    width: 350px;
+    color: black;
+}
+.sou{
+    border: none;
+    margin-top: 10px;
+}
+div {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px; /* Ajoutez une marge intérieure pour un look plus compact */
+    border: 1px solid #6a3838; /* Ajoutez une bordure pour une séparation visuelle */
+    border-radius: 10px; /* Ajoutez un coin arrondi */
+    
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; /* Alignez les étiquettes à gauche */
+  }
+  
+  input {
+    width: calc(100% - 16px); /* Ajustez la largeur du champ de saisie pour tenir compte des marges */
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  

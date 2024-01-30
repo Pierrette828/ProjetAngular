@@ -1,0 +1,61 @@
+.auth-container {
+  max-width: 400px; /* Ajustez la largeur du conteneur selon vos besoins */
+  margin: auto; /* Centre le conteneur horizontalement */
+  margin-top: 100px;
+  padding: 20px; /* Ajoute de l'espace à l'intérieur du conteneur */
+  border: 1px solid #ccc; /* Ajoute une bordure au conteneur */
+  border-radius: 10px; /* Ajoute un coin arrondi au conteneur */
+}
+
+.auth-container h2 {
+  text-align: center; /* Centre le titre à l'intérieur du conteneur */
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container form div {
+  margin-bottom: 15px; /* Ajoute une marge en bas de chaque champ de saisie */
+}
+
+.auth-container label {
+  display: block; /* Affiche chaque label sur une nouvelle ligne */
+  margin-bottom: 5px; /* Ajoute un espacement en bas de chaque label */
+}
+
+.auth-container input {
+  width: 100%; /* Remplit la largeur du conteneur */
+  padding: 8px; /* Ajoute de l'espace à l'intérieur des champs de saisie */
+  box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur/hauteur totale */
+}
+
+.auth-container p {
+  text-align: center; /* Centre le paragraphe à l'intérieur du conteneur */
+  margin-top: 10px; /* Ajoute une marge en haut du paragraphe */
+}
+
+.auth-container a {
+  color: #007bff; /* Change la couleur du lien */
+}
+
+.sou{
+  border: none;
+  margin-top: 10px;
+  margin: auto;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

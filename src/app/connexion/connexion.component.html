@@ -1,0 +1,64 @@
+<div class="div1">
+    <h2>Formulaire d'inscription</h2>
+    <form (ngSubmit)="onSubmit()" #form="ngForm">
+      <!-- Nom et prénom -->
+      <div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" ngModel required>
+      </div>
+      <div>
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" ngModel required>
+      </div>
+      <!-- Mot de passes -->
+      <div>
+        <label for="mot">Mot de passe:</label>
+        <input type="password" id="mot" name="mot" required>
+      </div>
+      <!-- Date de naissance -->
+      <div>
+        <label for="dateNaissance">Date de naissance :</label>
+        <input type="date" id="dateNaissance" name="dateNaissance" ngModel required>
+      </div>
+  
+      <!-- Sexe -->
+      <div>
+        <label for="sexe">Sexe :</label>
+        <select id="sexe" name="sexe" ngModel required>
+          <option value="homme">Homme</option>
+          <option value="femme">Femme</option>
+        </select>
+      </div>
+  
+      <!-- Adresse -->
+      <div>
+        <label for="adresse">Adresse :</label>
+        <textarea id="adresse" name="adresse" ngModel required></textarea>
+      </div>
+  
+      <!-- Numéro de téléphone -->
+      <div>
+        <label for="telephone">Numéro de téléphone :</label>
+        <input type="tel" id="telephone" name="telephone" ngModel required>
+      </div>
+  
+      <!-- Courriel -->
+      <div>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" ngModel required>
+      </div>
+  
+      <!-- Nationalité -->
+      <div>
+        <label for="nationalite">Nationalité :</label>
+        <input type="text" id="nationalite" name="nationalite" ngModel required>
+      </div>
+      <p><strong>Vous avez déjà un compte?</strong><a href="/connexion2">Connectez-vous</a>
+      </p>
+      <!-- Bouton Soumettre -->
+      <div class="sou">
+        <button type="submit" [disabled]="!form.valid">Soumettre</button>
+      </div>
+    </form>
+  </div>
+  
